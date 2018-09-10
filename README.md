@@ -16,12 +16,12 @@
 # limitations under the License.
 #
 
-Add to `.repo/local_manifests/treltexx.xml`:
+Add to `.repo/local_manifests/tre3caltektt.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/samsung/treltexx" name="android_device_samsung_treltexx" remote="TeamWin" revision="android-6.0" />
+	<project path="device/samsung/tre3calteskt" name="android_device_samsung_tre3calteskt" remote="TeamWin" revision="android-6.0" />
 </manifest>
 ```
 
@@ -31,7 +31,7 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_treltexx-eng
+lunch omni_tre3calteskt-eng
 make -j5 recoveryimage
 ```
 
